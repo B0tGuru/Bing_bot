@@ -2,7 +2,7 @@ from os import environ
 from Bard import Chatbot
 import aiohttp
 from sydney import SydneyClient
-
+from urllib.parse import quote
 
 token = environ.get("BARD_TOKEN")
 environ["BING_COOKIES"]=''
