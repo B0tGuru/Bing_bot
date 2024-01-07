@@ -5,7 +5,7 @@ from sydney import SydneyClient
 
 
 token = environ.get("BARD_TOKEN")
-
+environ["BING_COOKIES"]=''
 #environ.get("BARD_TOKEN")
 def initBard(bard_token):
     token = bard_token
