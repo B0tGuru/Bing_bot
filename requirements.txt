@@ -1,0 +1,11 @@
+fastapi==0.98.0
+uvicorn
+requests
+Bard==0.1
+deta==1.1.0
+GoogleBard==1.4.0
+PyJWT==2.7.0
+python-telegram-bot==20.3
+nest_asyncio
+sydney-py
+aiohttp
