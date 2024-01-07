@@ -1,5 +1,5 @@
 import asyncio
-
+from os import environ
 from sydney import SydneyClient
 environ["BING_COOKIES"]=''
 
