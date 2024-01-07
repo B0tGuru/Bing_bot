@@ -1,6 +1,6 @@
 from os import environ
 from Bard import Chatbot
-import aiohttp
+import aiohttp,requests
 from sydney import SydneyClient
 from urllib.parse import quote
 
