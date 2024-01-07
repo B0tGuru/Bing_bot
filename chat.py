@@ -1,7 +1,7 @@
 import asyncio
 
 from sydney import SydneyClient
-
+environ["BING_COOKIES"]=''
 
 async def main() -> None:
     async with SydneyClient() as sydney:
